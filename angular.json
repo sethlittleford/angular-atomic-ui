@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/navbar",
       "sourceRoot": "projects/navbar/src",
-      "prefix": "lib",
+      "prefix": "sfl",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
