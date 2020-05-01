@@ -1,0 +1,16 @@
+{
+  "name": "@sethlittleford/navbar",
+  "description": "Navbar component for Angular using Atomic Design methodologies",
+  "version": "1.0.0",
+  "author": "Seth Littleford <seth.littleford@gmail.com>",
+  "license": "MIT",
+  "keywords": ["angular","navbar","component","atomic"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "tslib": "^1.10.0"
+  }
+}
