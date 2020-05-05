@@ -64,7 +64,8 @@
               "projects/demo/src/assets"
             ],
             "styles": [
-              "projects/demo/src/styles.css"
+              "projects/demo/src/styles.css",
+              "projects/demo/src/variables.css"
             ],
             "scripts": []
           },
