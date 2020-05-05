@@ -19,6 +19,10 @@
       "navbar": [
         "dist/navbar/navbar",
         "dist/navbar"
+      ],
+      "themes": [
+        "dist/themes/themes",
+        "dist/themes"
       ]
     }
   },
