@@ -2,12 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'sfl-navbar',
-  template: `
-    <p>
-      navbar works!
-    </p>
-  `,
-  styles: []
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
 
