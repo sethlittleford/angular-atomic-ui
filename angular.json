@@ -3,46 +3,6 @@
   "version": 1, 
   "newProjectRoot": "projects",
   "projects": {
-    "navbar": {
-      "projectType": "library",
-      "root": "projects/navbar",
-      "sourceRoot": "projects/navbar/src",
-      "prefix": "sfl",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
-          "options": {
-            "tsConfig": "projects/navbar/tsconfig.lib.json",
-            "project": "projects/navbar/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/navbar/tsconfig.lib.prod.json"
-            }
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/navbar/src/test.ts",
-            "tsConfig": "projects/navbar/tsconfig.spec.json",
-            "karmaConfig": "projects/navbar/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/navbar/tsconfig.lib.json",
-              "projects/navbar/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
-    },
     "demo": {
       "projectType": "application",
       "schematics": {},
