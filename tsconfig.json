@@ -16,10 +16,6 @@
       "dom"
     ],
     "paths": {
-      "themes": [
-        "dist/themes/themes",
-        "dist/themes"
-      ],
       "ng-ui": [
         "dist/ng-ui/ng-ui",
         "dist/ng-ui"
