@@ -1,7 +1,12 @@
 /*
- * Public API Surface of ng-ui
+ * Public API Surface of navbar.
+ * The "user layer" that defines what is available to consumers of this library.
+ * Anything exported from this file is made public when this library is imported
+ * into an application.
  */
 
-export * from './lib/ng-ui.service';
-export * from './lib/ng-ui.component';
-export * from './lib/ng-ui.module';
+// navbar
+export * from './navbar/navbar.component';
+export * from './navbar/navbar.module';
+
+// themes
