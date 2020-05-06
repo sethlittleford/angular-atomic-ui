@@ -1,0 +1,26 @@
+{
+  "name": "@sethlittleford/ng-ui",
+  "description": "Angular component library built using Atomic Design methodologies",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sethlittleford/angular-atomic-ui.git"
+  },
+  "author": "Seth Littleford <seth.littleford@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "component",
+    "library",
+    "atomic",
+    "UI"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "tslib": "^1.10.0"
+  }
+}
