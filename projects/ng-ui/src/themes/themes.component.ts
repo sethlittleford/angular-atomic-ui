@@ -1,13 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'lib-themes',
+  selector: 'ngs-themes',
   template: `
-    <p>
-      themes works!
-    </p>
   `,
-  styles: []
+  styleUrls: ['./dark.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class ThemesComponent implements OnInit {
 

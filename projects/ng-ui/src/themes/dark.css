@@ -4,3 +4,9 @@
     --hover-color: rgba(0,0,0,0.15);
     --Lato-font: 'Lato', sans-serif;
 }
+
+body {
+    background-color: var(--dark);
+    font-family: var(--Lato-font);
+    margin: 0px;
+}
