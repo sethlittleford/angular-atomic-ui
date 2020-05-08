@@ -1,12 +1,36 @@
 :root {
-    --dark: #303030;
-    --crimson: #dc143c;
-    --hover-color: rgba(0,0,0,0.15);
+    /* Background palette */
+    --grey-primary: #303030;
+    --grey-light: #424242;
+    --grey-dark: #242424;
+    
+    /* Foreground palette */
+    --white: #FFFFFF;
+    --white-secondary: rgba(255, 255, 255, 0.7);
+    --black: #000000;
+    --black-secondary: rgba(0,0,0,0.15);
+
+    /* Primary palette */
+    --teal: #1de9b6;
+    --teal-light: #6effe8;
+    --teal-dark: #00b686;
+    
+    /* Accent palette */
+    --purple: #7433E8;
+    --purple-light: #ab64ff;
+    --purple-dark: #3700b4;
+    --blue: #0481B5;
+
+    /* Warn palette */
+    --maroon: #B50423;
+    --maroon-light: #EB6557;
+    
+    /* Typography */
     --Lato-font: 'Lato', sans-serif;
 }
 
 body {
-    background-color: var(--dark);
+    background-color: var(--grey-primary);
     font-family: var(--Lato-font);
     margin: 0px;
 }
