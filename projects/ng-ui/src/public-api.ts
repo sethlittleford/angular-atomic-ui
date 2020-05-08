@@ -8,7 +8,3 @@
 // navbar
 export * from './navbar/navbar.module';
 export * from './navbar/navbar.component';
-
-// themes
-export * from './themes/themes.module';
-export * from './themes/themes.component';
