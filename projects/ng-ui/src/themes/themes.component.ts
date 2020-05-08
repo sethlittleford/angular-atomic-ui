@@ -5,6 +5,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   template: `
   `,
   styleUrls: ['./dark.css'],
+  // https://angular.io/guide/component-styles#view-encapsulation
   encapsulation: ViewEncapsulation.None
 })
 export class ThemesComponent implements OnInit {
