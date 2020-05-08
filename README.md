@@ -4,9 +4,11 @@ and published as a scoped [npm package](https://docs.npmjs.com/).
 
 ## Install
 
-`npm install --save @sethlittleford/navbar`
+`npm install @sethlittleford/ng-ui`
 
 ## Import
+
+### Fonts & Icons
 
 This library uses [Google's Material Icons](https://material.io/resources/icons/?style=baseline) and the [Lato](https://fonts.google.com/specimen/Lato) font.
 
@@ -16,14 +18,20 @@ Add the following HTML into the `<head>` element of `src/index.html`
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Material+Icons&display=swap" 
     rel="stylesheet">
 ```
-Then, add this CSS to `src/styles.css`
+
+### Themes
+
+This library comes packaged with pre-built themes that can be applied to the components.
+Theme styles are generated statically at build-time and can be imported into an application from `@sethlittleford/ng-ui/themes`.
+Only one css theme file is needed in an application.
+
+Simply add one line into `src/styles.css`
 
 ```css
-body {
-    // ...
-    font-family: 'Lato', sans-serif;
-    // ...
-}
+@import '@sethlittleford/ng-ui/themes/dark.css';
 ```
+
+> Note: When building with the Angular CLI, you must configure the `angular.json` to include all external style files, see [docs](https://angular.io/guide/component-styles#external-and-global-style-files).
+Register global style files in the `styles` section which, by default, is pre-configured with the global `styles.css` file.
 
 ## Usage
