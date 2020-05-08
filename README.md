@@ -8,6 +8,24 @@ and published as a scoped [npm package](https://docs.npmjs.com/).
 
 ## Import
 
+Import component modules into application's AppModule, usually `app.module.ts`
+For example:
+
+```typescript
+//...
+import { NavbarModule } from '@sethlittleford/ng-ui';
+
+@NgModule({
+  //...
+  imports: [
+    //..
+    NavbarModule
+  ],
+  //...
+})
+export class AppModule { }
+```
+
 ### Fonts & Icons
 
 This library uses [Google's Material Icons](https://material.io/resources/icons/?style=baseline) and the [Lato](https://fonts.google.com/specimen/Lato) font.
