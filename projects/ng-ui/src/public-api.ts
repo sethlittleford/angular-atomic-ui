@@ -8,3 +8,7 @@
 // navbar
 export * from './navbar/navbar.module';
 export * from './navbar/navbar.component';
+
+// button
+export * from './button/button.module';
+export * from './button/button.component';
