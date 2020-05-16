@@ -12,3 +12,7 @@ export * from './navbar/navbar.component';
 // button
 export * from './button/button.module';
 export * from './button/button.component';
+
+// directives
+export * from './directives/theming.module';
+export * from './directives/color.directive';

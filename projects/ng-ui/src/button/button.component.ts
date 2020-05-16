@@ -1,7 +1,12 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { 
+  Component, 
+  OnInit, 
+  ViewEncapsulation
+} from '@angular/core';
 
 @Component({
-  selector: `button[ngs-icon]`,
+  // Native <button> and <a> elements ensure accessibility by default
+  selector: `button[ngs-icon-btn]`,
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.css'],
   // https://angular.io/guide/component-styles#view-encapsulation
