@@ -2,7 +2,9 @@ import {
   Directive, 
   ElementRef, 
   Input, 
-  OnInit
+  OnInit,
+  HostBinding,
+  Renderer2
 } from '@angular/core';
 
 @Directive({
@@ -12,18 +14,23 @@ export class ColorDirective implements OnInit {
   
   // A directive's data-bound input properties are not set
   // until after construction. Use ngOnInit() to access.
-  @Input('ngsColor') color: string;
+  @Input('ngsColor') customColor: string;
   
-  constructor(private el: ElementRef) { }
+  @HostBinding('style.background-color') color: string;
+  
+  
+  constructor(private el: ElementRef, private rndr: Renderer2) {
+    this.color = 'pink';
+  }
   
   ngOnInit(): void {
     if(this.el.nativeElement instanceof HTMLButtonElement) {
-      this.setColor(this.color || 'red')
+      this.setColor(this.customColor || 'red')
     }
   }
   
   private setColor(newColor: string): void {
-    this.el.nativeElement.style.backgroundColor = newColor;
+    this.rndr.setStyle(this.el.nativeElement, 'color', newColor);
   }
   
 }
