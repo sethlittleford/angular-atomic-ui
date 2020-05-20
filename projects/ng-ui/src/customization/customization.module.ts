@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ColorDirective } from './color.directive';
+import { ColorDirective } from './color/color.directive';
 
 
 @NgModule({
@@ -7,4 +7,4 @@ import { ColorDirective } from './color.directive';
   imports: [],
   exports: [ColorDirective]
 })
-export class ThemingModule { }
+export class CustomizationModule { }

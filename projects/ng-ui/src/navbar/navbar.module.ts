@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { ButtonModule } from '../button/button.module';
 import { NavbarComponent } from './navbar.component';
-import { ThemingModule } from '../directives/theming.module';
+import { CustomizationModule } from '../customization/customization.module';
 
 
 @NgModule({
@@ -9,7 +9,7 @@ import { ThemingModule } from '../directives/theming.module';
   /*navbar utilizes the button atom*/
   imports: [
     ButtonModule,
-    ThemingModule
+    CustomizationModule
   ],
   exports: [NavbarComponent]
 })

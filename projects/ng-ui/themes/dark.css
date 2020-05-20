@@ -1,4 +1,7 @@
 :root {
+    /* Declare theme name */
+    --darkTheme: ;
+    
     /* Background palette */
     --grey-primary: #303030;
     --grey-light: #424242;

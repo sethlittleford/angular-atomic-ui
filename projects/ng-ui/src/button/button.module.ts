@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { ButtonComponent } from './button.component';
-import { ThemingModule } from '../directives/theming.module';
+import { CustomizationModule } from '../customization/customization.module';
 
 
 @NgModule({
   declarations: [ButtonComponent],
   imports: [
-    ThemingModule
+    CustomizationModule
   ],
   exports: [ButtonComponent]
 })

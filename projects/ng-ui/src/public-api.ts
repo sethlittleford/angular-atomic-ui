@@ -14,5 +14,5 @@ export * from './button/button.module';
 export * from './button/button.component';
 
 // directives
-export * from './directives/theming.module';
-export * from './directives/color.directive';
+export * from './customization/customization.module';
+export * from './customization/color/color.directive';
